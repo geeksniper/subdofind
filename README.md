@@ -10,10 +10,10 @@ sudo apt install amass
 sudo apt install golang
 
 # configure $GOPATH/bin
-nano ~/.bashrc
-export PATH=$PATH:/usr/local/go/bin
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+nano ~/.bashrc <br>
+export PATH=$PATH:/usr/local/go/bin <br>
+export GOPATH=$HOME/go <br>
+export PATH=$PATH:$GOPATH/bin 
 # scripts need to be installed 
 # anew
 go get -u github.com/tomnomnom/anew
@@ -25,8 +25,8 @@ go get -u github.com/jaeles-project/gospider
 go get -u github.com/tomnomnom/httprobe
 
 # Install 
-git clone https://github.com/geeksniper/subdofind.git
-cd /subdofind
+git clone https://github.com/geeksniper/subdofind.git <br>
+cd /subdofind <br>
 chmod +x subdofind.sh
 # use
 ./subdofind.sh <domain_name>
