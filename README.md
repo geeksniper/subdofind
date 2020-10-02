@@ -11,7 +11,7 @@ sudo apt install golang
 
 # configure $GOPATH/bin
 nano ~/.bashrc <br>
-# go to the last line of this file then export those lines <br>
+# go to the last line of ~/.bashrc file then export those lines <br>
 export PATH=$PATH:/usr/local/go/bin <br>
 export GOPATH=$HOME/go <br>
 export PATH=$PATH:$GOPATH/bin 
