@@ -1,5 +1,5 @@
 # subdofind
-This tool can gather all possible subdomains.
+This tool can gather possible subdomains and identify live hosts
 # tools need to be installed
 To run this tool need to install following tools
 # sublister
